@@ -7,7 +7,7 @@ function App() {
         <h1>Título</h1>
       </Row>
       <Row as="main">
-        <Col as="section" className="principal">
+        <Col sm="12" md="8" as="section" className="principal">
           <h2>Titular de la notícia</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, illum! Voluptatem sunt nam molestias,
           repudiandae minima quod aliquid deleniti eaque aspernatur dicta totam necessitatibus architecto similique maxime.
@@ -16,7 +16,7 @@ function App() {
           repudiandae minima quod aliquid deleniti eaque aspernatur dicta totam necessitatibus architecto similique maxime.
             Obcaecati, molestias amet?</p>
         </Col>
-        <Col as="aside" className="sidebar">
+        <Col sm="12" md="4" as="aside" className="sidebar">
           <h3>Categorías</h3>
           <ul className="list-unstyled">
             <li>Noticias de deporte</li>
