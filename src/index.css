@@ -9,18 +9,31 @@ body {
   font-size: 16px;
 }
 
+.contenedor {
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 /* colores de fondo */
 header, footer {
   color: white;
   background-color: #2d3142;
   font-size: 16px;
   height: 100px;
-  line-height: 100px;
-  padding-right: 15px;
-  padding-left: 15px;
-  align-content: center;
-  justify-content: center;
 }
+
+footer {
+  line-height: 100px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 100px;
+}
+
 .principal {
   color: #333333;
   background-color: #d8d5db;
@@ -36,31 +49,19 @@ h1 {
 }
 h2 {
   font-size: 32px;
-  margin: 0 0 5px 0;
 }
 h3 {
   font-size: 28px;
-  padding: 0 0 5px 0;
 }
 li {
   font-size: 16px;
   font-weight: lighter;
-}
-h4:nth-of-type(4) {
-  padding: 0 0 10px 0;
 }
 
 h1, h2, h3 {
   font-weight: bold;
 }
 
-
-/* aires */
-
-.principal p:nth-of-type(2) {
-  margin-top: 10px;
-}
-
 .principal, .sidebar {
-  padding: 15px 15px 30px;
+  padding: 15px;
 }
