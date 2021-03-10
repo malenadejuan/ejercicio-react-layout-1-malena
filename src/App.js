@@ -2,9 +2,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <Container>
+    <Container className="contenedor d-flex flex-column">
       <Row as="header">
-        <h1>Título</h1>
+        <Col as="span"><h1>Título</h1></Col>
       </Row>
       <Row as="main">
         <Col sm="12" md="8" as="section" className="principal">
@@ -33,7 +33,7 @@ function App() {
         </Col>
       </Row>
       <Row as="footer">
-        <span>Texto del footer</span>
+        <Col as="span">Texto del footer</Col>
       </Row>
     </Container>
   );
